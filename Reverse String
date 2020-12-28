@@ -1,0 +1,20 @@
+class Solution 
+{
+    public void reverseString(char[] w) 
+    {
+        int a = 0;
+        int b = w.length - 1;
+        
+        char temp = ' ';
+        
+        while(a <= b)
+        {
+            t = w[a];
+            w[a] = w[b];
+            w[b] = t;
+            
+            a++;
+            b--;
+        }
+    }
+}
